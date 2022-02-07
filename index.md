@@ -1,14 +1,49 @@
 <img src="/assets/img/PaNelearning.png"
      alt="PaN e-Learning logo"
-     style="size: 300px" />
+     style="width: 300px" />
      
      
-This is a help for potential content creators on [pan-learning](https://pan-learning.org).
+This page is an additional for potential content creators on [PaN e-Learning platform](https://pan-learning.org).
 
 
 ## Creating your own docker container 
 
 If you need your own JupyterHub environment with software not currently included in any of the current containers you need to build your own docker container. Information regarding docker can be found at [https://docs.docker.com/](https://docs.docker.com/). 
+
+## What our containers currently contain
+
+All containers come as standard with the following: 
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; 
+-webkit-column-rule: none; -moz-column-rule: none; column-rule: none;">
+    <div style="display: inline-block;">
+        <p> h5py </p>
+        <p> ipympl </p>
+        <p> ipython </p>
+        <p> ipywidgets </p>
+        <p> jupyterlab </p>
+        <p> jupyterlab_widgets </p>
+        <p> jupyter_nbextensions_configurator </p>
+        <p> matplotlib-base </p>
+    </div>
+    <br>
+    <div style="display: inline-block;">
+        <p> nodejs </p>
+        <p> python-confluent-kafka </p>
+        <p> pythreejs </p>
+        <p> voila </p>
+        <p> bqplot </p>
+        <p> ipyvolume </p>
+        <p> ipympl </p>
+    </div>
+</div>
+
+      
+      
+
+| ------ | ----------- | ----------- | ----------- |
+| Dockerhub name | trnielsen/jhub_py38_ikon21_nb | movingnorthwards/crispy | movingnorthwards/ |
+| dockerfile | [link](https://github.com/trnielsen/Docker/tree/master/jhub38_dram_ikon21) | [link](https://github.com/moving-northwards/docker4pan-learning/blob/main/Crispy/Dockerfile) | [link](https://github.com/moving-northwards/docker4pan-learning/blob/main/SimEx/Dockerfile) |
+
 
 
 ## First time with docker
