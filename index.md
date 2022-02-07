@@ -1,5 +1,6 @@
 ## PaN e-Learning pages
 
+![](/assets/img/PaNelearning.png)
 This is a help for potential content creators on [pan-learning](https://pan-learning.org).
 
 
@@ -14,7 +15,9 @@ Download and install docker following the instructions on [their website](https:
 
 ```markdown
 docker pull moving-northwards/crispy 
+```
 
+```markdown
 docker run -p 8888:8888 moving-northwards/crispy 
 ```
 
