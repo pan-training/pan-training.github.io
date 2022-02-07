@@ -73,6 +73,6 @@ Open one of the URls in your browser. You can then upload a Jupyter notebook whi
 
 4. To build your own container you can copy our simplest dockerfile and edit to add your own python modules or software. Use `RUN` before a git/pip/bash command. 
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
+{% include note.html content="Each RUN command creates a new layer. Avoid this by combining commands into one RUN command. Read about best practices [here](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)" %}
 
 
