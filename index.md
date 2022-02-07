@@ -15,7 +15,7 @@ If you need your own JupyterHub environment with software not currently included
 Apart from the usual scientific modules that come with miniconda all containers have the following: 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; 
 -webkit-column-rule: none; -moz-column-rule: none; column-rule: none;">
-    <div style="display: inline-block;">
+    <div style="display: inline-block; list-style-type:none;">
         <li> h5py </li>
         <li> ipython </li>
         <li> ipywidgets </li>
@@ -35,7 +35,7 @@ Apart from the usual scientific modules that come with miniconda all containers 
         <li> ipympl </li>
     </div>
 </div>
-
+<br>
       
 Here are the containers we are currently using:
 
@@ -53,13 +53,13 @@ If you do not have any prior experience, this is not a problem. Here we will gui
 
 2. Practice pulling one of our containers. 
 ```markdown
-sudo docker pull moving-northwards/crispy 
+docker pull moving-northwards/crispy 
 ```
 (Linux users: If you wish to avoid typing sudo with each docker command you can become root with `sudo -i`.)
 
 3. Try running the container on your own computer. This will help you understand how the containers work on our e-learning platform. 
 ```markdown
-docker run -p 8888:8888 moving-northwards/crispy 
+docker run -p 8888:8888 --name test moving-northwards/crispy 
 ```
 At the bottom of the output you will see a similar message to: 
 ```markdown    
@@ -70,3 +70,9 @@ At the bottom of the output you will see a similar message to:
      or http://127.0.0.1:8888/?token=8a93c688b03a17b597035daaf9d6b134e1465b04afafd717
 ```
 Open one of the URls in your browser. You can then upload a Jupyter notebook which uses crispy as can be found here: [https://github.com/mretegan/crispy-pan-learning](https://github.com/mretegan/crispy-pan-learning). 
+
+4. To build your own container you can copy our simplest dockerfile and edit to add your own python modules or software. Use `RUN` before a git/pip/bash command. 
+
+{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
+
+
