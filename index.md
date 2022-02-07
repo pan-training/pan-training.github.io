@@ -12,38 +12,37 @@ If you need your own JupyterHub environment with software not currently included
 
 ## What our containers currently contain
 
-All containers come as standard with the following: 
+Apart from the usual scientific modules that come with miniconda all containers have the following: 
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; 
 -webkit-column-rule: none; -moz-column-rule: none; column-rule: none;">
     <div style="display: inline-block;">
-        <p> h5py </p>
-        <p> ipympl </p>
-        <p> ipython </p>
-        <p> ipywidgets </p>
-        <p> jupyterlab </p>
-        <p> jupyterlab_widgets </p>
-        <p> jupyter_nbextensions_configurator </p>
-        <p> matplotlib-base </p>
+        <li> h5py </li>
+        <li> ipython </li>
+        <li> ipywidgets </li>
+        <li> jupyterlab </li>
+        <li> jupyterlab_widgets </li>
+        <li> jupyter_nbextensions_configurator </li>
+        <li> matplotlib-base </li>
     </div>
     <br>
-    <div style="display: inline-block;">
-        <p> nodejs </p>
-        <p> python-confluent-kafka </p>
-        <p> pythreejs </p>
-        <p> voila </p>
-        <p> bqplot </p>
-        <p> ipyvolume </p>
-        <p> ipympl </p>
+    <div style="display: inline-block; list-style-type:none;">
+        <li> nodejs </li>
+        <li> python-confluent-kafka </li>
+        <li> pythreejs </li>
+        <li> voila </li>
+        <li> bqplot </li>
+        <li> ipyvolume </li>
+        <li> ipympl </li>
     </div>
 </div>
 
       
-      
+Here are the containers we are currently using:
 
 | ------ | ----------- | ----------- | ----------- |
-| Dockerhub name | trnielsen/jhub_py38_ikon21_nb | movingnorthwards/crispy | movingnorthwards/ |
+| Dockerhub name | trnielsen/jhub_py38_ikon21_nb | movingnorthwards/crispy | movingnorthwards/carstensimex |
 | dockerfile | [link](https://github.com/trnielsen/Docker/tree/master/jhub38_dram_ikon21) | [link](https://github.com/moving-northwards/docker4pan-learning/blob/main/Crispy/Dockerfile) | [link](https://github.com/moving-northwards/docker4pan-learning/blob/main/SimEx/Dockerfile) |
-
+| Specific software installed | [McStas](https://www.mcstas.org/) [McXtrace](https://www.mcxtrace.org/) [McStasscript](https://mads-bertelsen.github.io/)  [SasView](https://www.sasview.org/) [SCIPP](https://scipp.github.io/) | [CrisPy](https://www.esrf.fr/computing/scientific/crispy/) | [SimEx](https://simex.readthedocs.io/en/latest/) |
 
 
 ## First time with docker
