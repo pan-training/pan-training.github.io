@@ -1,6 +1,7 @@
 ---
 permalink: /docs/docker/
 classes: wide
+title: Docker 
 ---
 
 ## Creating your own docker container 

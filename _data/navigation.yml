@@ -22,5 +22,13 @@ nav:
         url: /docs/quick-start  
   - title: Video Content
     children:
+      - title: "Education Videos"
+        url: /docs/videos 
       - title: "OBS"
-        url: /docs/obs    
+        url: /docs/obs   
+      - title: "Video Layout"
+        url: /docs/layout    
+      - title: "Using a camera"
+        url: /docs/webcams  
+      - title: "Virtual Backgrounds"
+        url: /docs/virtual_backgrounds
