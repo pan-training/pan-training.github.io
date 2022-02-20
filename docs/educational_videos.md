@@ -4,6 +4,8 @@ classes: wide
 title: Eduational Videos
 ---
 
+You may be considering including video content in your course but you are unsure how much work this represents. The following will attempt to answer those questions and help you if you chose to try and make one. 
+
 Educational videos can be more or less boiled down to two types:
 
 ### 1. Recorded presentation style 
@@ -29,7 +31,7 @@ Uses stock footage, graphics and some animations.
 
 ### What we recommend 
 
-The recorded presentation style is alot easier and more time effective for most. This is especially true if you are used to giving conference talks and/or lectures. 
+The recorded presentation style is a lot easier and more time effective for most. This is especially true if you are used to giving conference talks and/or lectures. 
 That being said, there is some preparation required. 
 
 ###### 1. Download and install video recording software: [We recommend OBS.]({{ site.baseurl }}{% link docs/obs.md %})  

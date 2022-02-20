@@ -68,7 +68,7 @@ At the bottom of the output you will see a similar message to:
         http://29d5bca97b1d:8888/?token=8a93c688b03a17b597035daaf9d6b134e1465b04afafd717
      or http://127.0.0.1:8888/?token=8a93c688b03a17b597035daaf9d6b134e1465b04afafd717
 ```
-Open one of the URLs in your browser. You can then upload a Jupyter notebook to test if it runs. You finde one which uses Crispy here: [https://github.com/mretegan/crispy-pan-learning](https://github.com/mretegan/crispy-pan-learning). 
+Open one of the URLs in your browser. You can then upload a Jupyter notebook to test if it runs. You can also with one that uses Crispy, which can be found here: [https://github.com/mretegan/crispy-pan-learning](https://github.com/mretegan/crispy-pan-learning). 
 
 4. To build your own container you can copy our simplest dockerfile and edit to add your own python modules or software. Use `RUN` before a git/pip/bash command. 
 

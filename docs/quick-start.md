@@ -14,9 +14,9 @@ Your course will have two names. The full name appears at the top of the header,
 
 ![Blank Course](/assets/img/blank_course.png){: style="width: 100%;"}
 
-{% include note.html content="If your short name is greyed out as in the image above, it means your course is not visible to students." %}   
+{% include note.html content="If your short name is grayed out as in the image above, it means your course is not visible to students." %}   
 
-To edit anything on the course page, you first have to click on ***Turn editing on*** on the right hand side of the header. To edit things such as the course name click on the cog icon and select ***Edit settings*** from the dropdown menu. 
+To edit anything on the course page, you first have to click on ***Turn editing on*** on the right hand side of the header. To edit things such as the course name click on the cog icon and select ***Edit settings*** from the drop-down menu. 
 
 ![Edit Settings](/assets/img/edit_settings.png){: style="width: 30%;"}
 
@@ -36,6 +36,6 @@ Here you can change the name and add text in the summary box. Click on the right
 
 ![Edit Settings](/assets/img/edit_text.png){: style="width: 100%;"}
 
-This is useful for removing unecessary spaces, changing the colour of text and placing figures.
+This is useful for removing unnecessary spaces, changing the color of text and placing figures.
 
 ![Edit Settings](/assets/img/edit_html.png){: style="width: 100%;"}

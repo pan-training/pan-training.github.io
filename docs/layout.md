@@ -9,7 +9,7 @@ The following are possible layouts for a 'live' recording using broadcaster soft
 #### Layout 1 
 
 * Slides or screen capture fill the screen. 
-* Camera feed layed over the top.
+* Camera feed layered over the top.
 
 ![Layout 1](/assets/img/layout1.png){: style="width: 60%; border: solid;"}
 

@@ -22,7 +22,7 @@ nav:
         url: /docs/quick-start  
   - title: Video Content
     children:
-      - title: "Education Videos"
+      - title: "Educational Videos"
         url: /docs/videos 
       - title: "OBS"
         url: /docs/obs   
