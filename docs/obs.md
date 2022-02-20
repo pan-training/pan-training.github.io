@@ -56,3 +56,8 @@ You could also use programs like:
 - Paint
 - Krita
 
+### How OBS is useful 
+
+You can also view this [video on the PaN e-Learning platfrom](https://pan-learning.org/moodle/mod/resource/view.php?id=1754)
+
+<iframe  width="560" height="315" src="https://drive.google.com/file/d/11lfvx8Jl2ABv6e7SadruktG9XXZ6wkrX/preview"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

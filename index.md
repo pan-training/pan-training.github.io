@@ -29,3 +29,7 @@ The course will only be accessible to yourself and administrators while you work
 
 If you think you will create many courses on the platform and want the flexibility of creating the empty courses yourself, we can give you course creator priveleges. To see how to create courses with course creator priveleges click here. 
 
+### What is PaN e-Learning
+ 
+<p></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iGdtw51yEh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

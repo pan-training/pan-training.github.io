@@ -1,7 +1,7 @@
 ---
 permalink: /docs/docker/
 classes: wide
-title: Docker 
+title: Docker
 ---
 
 ## Creating your own docker container 
@@ -43,17 +43,18 @@ Here are the containers we are currently using:
 | Specific software installed | [McStas](https://www.mcstas.org/) [McXtrace](https://www.mcxtrace.org/) [McStasscript](https://mads-bertelsen.github.io/)  [SasView](https://www.sasview.org/) [SCIPP](https://scipp.github.io/) | [CrisPy](https://www.esrf.fr/computing/scientific/crispy/) | [SimEx](https://simex.readthedocs.io/en/latest/) |
 
 
-## First time with docker
+## Help with docker
 
 If you do not have any prior experience, this is not a problem. Here we will guide you through. 
 
-1. Download and install docker following the instructions on [docker's website](https://docs.docker.com/get-docker/). Note that Mac and Windows users will install 'docker desktop', however this is not necessary for linux users as you can interact with docker purely through the terminal. 
+1. Download and install docker following the instructions on [docker's website](https://docs.docker.com/get-docker/).  
+Note that Mac and Windows users will install 'docker desktop'. However Linux users interact with docker purely through the terminal. 
 
 2. Practice pulling one of our containers. 
 ```markdown
 docker pull moving-northwards/crispy 
 ```
-(Linux users: If you wish to avoid typing sudo with each docker command you can become root with `sudo -i`.)
+(Linux users: If you wish to avoid typing `sudo` with each docker command you can become root with `sudo -i`.)
 
 3. Try running the container on your own computer. This will help you understand how the containers work on our e-learning platform. 
 ```markdown
@@ -67,7 +68,7 @@ At the bottom of the output you will see a similar message to:
         http://29d5bca97b1d:8888/?token=8a93c688b03a17b597035daaf9d6b134e1465b04afafd717
      or http://127.0.0.1:8888/?token=8a93c688b03a17b597035daaf9d6b134e1465b04afafd717
 ```
-Open one of the URls in your browser. You can then upload a Jupyter notebook which uses crispy as can be found here: [https://github.com/mretegan/crispy-pan-learning](https://github.com/mretegan/crispy-pan-learning). 
+Open one of the URLs in your browser. You can then upload a Jupyter notebook to test if it runs. You finde one which uses Crispy here: [https://github.com/mretegan/crispy-pan-learning](https://github.com/mretegan/crispy-pan-learning). 
 
 4. To build your own container you can copy our simplest dockerfile and edit to add your own python modules or software. Use `RUN` before a git/pip/bash command. 
 
