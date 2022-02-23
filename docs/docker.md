@@ -45,7 +45,7 @@ Open the URL in your browser. You can then upload your Jupyter notebook to test 
 {% include note.html content="Each RUN command creates a new layer. Avoid this by combining commands into one RUN command. Read about best practices [here](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)" %}
 
 
-## 10 essential docker commands
+## 9 essential docker commands
 
 For a full list see [https://docs.docker.com/engine/reference/commandline/docker/](https://docs.docker.com/engine/reference/commandline/docker/) and note that `--help` will show all the options for each command. 
 
@@ -80,24 +80,17 @@ docker start container_name
 ```
 docker logs container_name
 ```
-##### 8. Check the logs of a container
-```
-docker logs container_name
-```
-##### 9. Check the logs of a container
-```
-docker logs container_name
-```
-##### 10. Delete a container
+##### 8. Delete a container
 ```
 docker rm container_name
 ```
-Use `docker image rm image_name` to delete an image. 
-
-{% include note.html content="`--help` can be used with every docker command to show you the full list of options." %}
+##### 9. Delete an image
+```
+docker image rm image_name
+```
 
 ## Pushing to Docker Hub
 
-Once built, you can of course push your image to Docker Hub. However, if you put your dockerfile on GitHub, we can also do this for you. The advantage here is that we can then rebuild it regularly if elements have updated. For example if the base notebook from docker stacks or nbgitpuller. 
+Once built, you can of course push your image to Docker Hub. However, if you put your dockerfile on GitHub, we can also do this for you. The advantage here is that we can then rebuild it regularly if elements have updated, e.g. the base-notebook or nbgitpuller. 
 
-#### More to be added to this section! 
+#### More to be added to this section! It should probably be a whole separate page 
