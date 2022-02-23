@@ -14,7 +14,11 @@ main:
 nav:
   - title: JupyterHub
     children:
-      - title: "Docker"
+      - title: "Overview"
+        url: /docs/overview
+      - title: "Our images"
+        url: /docs/containers
+      - title: "Try out docker"
         url: /docs/docker
   - title: Moodle
     children:
