@@ -1,5 +1,5 @@
-# [pan-training.github.io](https://pan-training.github.io/)
-Docs for [PaN e-Learning](https://pan-learning.org/)
+# [docs.pan-training.eu](https://docs.pan-training.eu/)
+Docs for [PaN e-Learning](https://e-learning.pan-training.eu/)
 
 ## Add/Edit a page 
 
