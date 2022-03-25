@@ -17,14 +17,14 @@ Be aware that Mac and Windows users will install 'docker desktop' but Linux user
 <br>
 2. Practice pulling one of our images from [Docker Hub](https://hub.docker.com/).
 ```
-docker pull movingnorthwards/crispy 
+docker pull stefanovdmsc/crispy 
 ```
 (Linux users: If you wish to avoid typing `sudo` with each docker command you can become root with `sudo -i`.)
-The movingnorthwards/crispy:latest version is automatically pulled. In other cases you might specify a version by explicitly giving the tag: `example/image:1.0.0`.
+The stefanovdmsc/crispy:latest version is automatically pulled. In other cases you might specify a version by explicitly giving the tag: `example/image:1.0.0`.
 
 3. Try running the image as a container on your own computer. This will help you understand how the containers work on our e-learning platform. 
 ```
-docker run -d -p 8888:8888 --name test moving-northwards/crispy 
+docker run -d -p 8888:8888 --name test stefanovdmsc/crispy 
 ```
 Check out the container logs. 
 ```
@@ -40,12 +40,12 @@ At the bottom of the output you will see a similar message to:
 ```
 Open the URL in your browser. You can then upload your Jupyter notebook to test if it runs. You can also test with our [notebook that uses Crispy](https://github.com/mretegan/crispy-pan-learning). 
 
-4. To try building your own container you can copy our [simplest dockerfile](https://github.com/moving-northwards/docker4pan-learning/blob/main/Crispy/Dockerfile) and edit to add your own python modules or applications. Use `RUN` before a git/pip/bash command. 
+4. To try building your own container you can copy our [simplest dockerfile](https://github.com/pan-training/Docker/blob/main/crispy/Dockerfile) and edit to add your own python modules or applications. Use `RUN` before a git/pip/bash command. 
 
 {% include note.html content="Each RUN command creates a new layer. Avoid this by combining commands into one RUN command. Read about best practices [here](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)" %}
 
 
-## 9 essential docker commands
+## 10 essential docker commands
 
 For a full list see [https://docs.docker.com/engine/reference/commandline/docker/](https://docs.docker.com/engine/reference/commandline/docker/) and note that `--help` will show all the options for each command. 
 
@@ -87,6 +87,10 @@ docker rm container_name
 ##### 9. Delete an image
 ```
 docker image rm image_name
+```
+##### 10. Display disk space used by docker
+```
+docker system df 
 ```
 
 ## Pushing to Docker Hub
