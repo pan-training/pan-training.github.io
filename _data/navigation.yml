@@ -24,6 +24,8 @@ nav:
     children:
       - title: "Quick-Start"
         url: /docs/quick-start  
+      - title: "Quizzes"
+        url: /docs/quizzes  
   - title: Video Content
     children:
       - title: "Educational Videos"
