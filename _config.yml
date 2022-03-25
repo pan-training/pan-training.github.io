@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "PaN e-Learning Help"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Stella d'Ambrumenil"
+name                     : "PaN-Training"
 description              : "These docs are to help future content creators to use the e-learning platform on pan-training. Help with understanding how we use Docker containers can be found here. "
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
